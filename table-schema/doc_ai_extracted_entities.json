@@ -98,7 +98,7 @@
         "mode": "NULLABLE",
         "name": "line_item_amount",
         "type": "STRING"
-      },    
+    },    
     {
         "mode": "NULLABLE",
         "name": "line_item_description",
