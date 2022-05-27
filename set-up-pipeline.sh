@@ -25,7 +25,7 @@ ${PROJECT_ID}:${BQ_DATASET_NAME}
 bq mk --table ${BQ_DATASET_NAME}.${BQ_TABLE_NAME} table-schema/doc_ai_extracted_entities.json
 
 # deploy Cloud Function
-gcloud functions deploy process-receipts \
+gcloud functions deploy process-invoices \
 --ingress-settings=${INGRESS_SETTINGS} \
 --region=${CLOUD_FUNCTION_LOCATION} \
 --entry-point=process_receipt \
